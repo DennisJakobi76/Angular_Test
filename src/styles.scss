@@ -8,6 +8,16 @@
 
 $hover-font-color: red;
 
+@mixin fontColor($fontColor) {
+  color: $fontColor;
+}
+
+@mixin dFlex($jc: center, $ai: center) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+}
+
 @font-face {
   font-display: swap;
   font-family: "Raleway";

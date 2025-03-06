@@ -1,14 +1,9 @@
 @import "./../../../../styles.scss";
 
-@mixin fontColor($fontColor) {
-  color: $fontColor;
-}
-
 nav {
   width: 100%;
   padding: 32px;
-  display: flex;
-  justify-content: space-between;
+  @include dFlex($jc: space-between);
 
   > img {
     width: 64px;
