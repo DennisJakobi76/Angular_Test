@@ -1,0 +1,43 @@
+#our-menu-container {
+  background-image: url("./../../../../public/img/section_our_menu_bg.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+  padding-bottom: 64px;
+  padding-top: 64px;
+}
+
+.menu-img {
+  width: 352px;
+  height: 352px;
+  margin-right: 64px;
+}
+
+.ramen-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 56px;
+}
+
+table {
+  margin-right: 64px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+tr {
+  margin-bottom: 8px;
+}
+
+td {
+  color: rgb(109, 92, 92);
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
